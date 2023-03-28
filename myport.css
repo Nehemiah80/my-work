@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font: sans-serif;
+}
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #080808;
+}
+
+.logo{
+    width: 50px;
+    margin:10px;
+    padding: 20px;
+}
+nav{
+    display: flex;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;  
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(233, 213, 213);
+    font-size: bold;
+}
+nav ul li a:hover{
+    color: orange;
+}
+
+.detel{
+    margin:80px 0;
+    text-align: center;
+}
+
+.detel h1{
+    font-size: 3em;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+span{
+    color: #ffa500;
+}
+
+.detel p{
+    color: hsl(35, 43%, 95%);
+    line-height: 25px;
+    font-size: 1.6em;
+}
+
+.detel a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 6px;
+
+}
+.detel a:hover{
+    color: orange;
+
+}
+
+.pro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #212121;
+    color: #fff;
+    font-size: 1rem;
+
+}
+
+h1{
+   font-size: 60px;
+}
+
+.skills{
+    border: 1px solid orange;
+    border-radius: 4px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgb(26, 24, 24);
+}
+
+.work{
+    border: 1px solid orange;
+    border-radius: 4px;
+    margin: 20px auto;
+    padding: 20px;
+    display: grid;
+    position: relative;
+
+}
+
+.about{
+    border: 1px solid orange;
+    border-radius: 4px;
+    margin: 20px auto;
+    padding: 20px;
+}
